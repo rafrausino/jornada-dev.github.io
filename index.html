@@ -1,25 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Olá, eu sou a cabeça</title>
-</head>
-<body>
-    <h1>h1 Eu sou o corpo</h1>
-    <h2>h2 Eu sou o corpo</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daniel Santos CV</title>
 
-    <ol>
-        <li>Café</li>
-        <li>Chá</li>
-        <li>Leite</li>
-    </ol>
+    <!-- Google font  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
 
-    <ul>
-        <li>Café</li>
-        <li>Chá</li>
-        <li>Leite</li>
-    </ul>
-</body>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="resume-contents">
+      <section class="left-section">
+        <section class="left-section-contents">
+          <div class="profile">
+            <img
+              class="profile-image"
+              src="img/profile-image.jpeg"
+              alt="Profile image"
+            />
+            <p class="name">Daniel Santos</p>
+            <p class="profession">Engenheiro de Software</p>
+          </div>
+          <div class="contact-info">
+            <p class="left-title">Informações de Contato</p>
+            <ul>
+              <li><i class="fa fa-phone"></i>+55 11 9999-1111</li>
+              <li><i class="fa fa-envelope"></i>daniel@gmail.com</li>
+              <li><i class="fa fa-globe"></i>www.daniel.com</li>
+              <li><i class="fa fa-github"></i>drsantos20</li>
+            </ul>
+          </div>
+          <div class="skills">
+            <p class="left-title">Habilidades</p>
+            <ul>
+              <li><p>Python3, Django, Flask & FastAPI</p></li>
+              <li><p>Java</p></li>
+              <li><p>JavaScript, VueJS</p></li>
+              <li><p>HTML5 & CSS3</p></li>
+              <li><p>SQL, Postgres, MongoDB</p></li>
+              <li><p>Git & GitHub</p></li>
+              <li><p>Linux, Bash/Shell</p></li>
+            </ul>
+          </div>
+        </section>
+      </section>
+
+      <section class="right-section">
+        <div class="right-section-contents">
+          <section class="about gap">
+            <div class="right-title">Sobre Mim</div>
+            <p class="about-me-contents">
+              Engenheiro de software e colaborador da comunidade (repositórios
+              de código aberto), sistemas distribuídos e programação
+              funcional.<br />
+              <br />
+              Experiência com provedores de nuvem como AWS, Google Cloud
+              Platform. <br />
+              Nos últimos anos, minha linguagem principal é Python atuando como
+              Engenheiro de Software também como Arquiteto.
+            </p>
+          </section>
+
+          <section class="experience gap">
+            <div class="right-title">Experiência</div>
+            <div class="experience-contents">
+              <div class="exp-left">
+                <p class="exp-company-name">Ponte do Jato</p>
+                <p class="exp-time-period">2021-presente</p>
+              </div>
+              <div class="exp-right">
+                <p class="exp-position">Engenheiro de Software Senior</p>
+                <p class="exp-desc">
+                  Trabalhando para manter e manter um pipeline e fluxos de
+                  trabalho de bioinformática usando ferramentas como Python,
+                  Nextflow, Kafka e Fast API
+                </p>
+              </div>
+
+              <div class="exp-left">
+                <p class="exp-company-name">Voxy</p>
+                <p class="exp-time-period">2018-2021</p>
+              </div>
+              <div class="exp-right">
+                <p class="exp-position">Engenheiro de Software</p>
+                <p class="exp-desc">
+                  Colabore no projeto líder e implemente um novo fluxo de alunos
+                  usando o Django Rest Framework e o projeto VueJS Lead e
+                  implemente uma migração do banco de dados mongo legado para um
+                  banco de dados SQL Postgres
+                </p>
+              </div>
+
+              <div class="exp-left">
+                <p class="exp-company-name">99 Táxis</p>
+                <p class="exp-time-period">2017-2018</p>
+              </div>
+              <div class="exp-right">
+                <p class="exp-position">Engenheiro de Software</p>
+                <p class="exp-desc">
+                  Colaborar com a equipe de Data Engineer para criar APIs para
+                  coletar e ingerir dados no pipeline de dados, além de liderar
+                  um projeto para desenvolver sistemas em lote para extrair
+                  dados de algumas fontes de dados para preencher bancos de
+                  dados internos
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section class="education gap">
+            <div class="right-title">Educação</div>
+            <div class="education-contents">
+              <div class="education-left">
+                <p class="education-company-name">PUC Minas</p>
+                <p class="education-time-period">2021-presente</p>
+              </div>
+              <div class="education-right">
+                <p class="education-name">Engenharia de Software</p>
+                <p class="education-desc">
+                  Associado de Engenheiro de Software, 2021
+                </p>
+              </div>
+              <div class="education-left">
+                <p class="education-company-name">Mackenzie</p>
+                <p class="education-time-period">2018-2021</p>
+              </div>
+              <div class="education-right">
+                <p class="education-name">Big Data</p>
+                <p class="education-desc">Curso de Graduação, 2018</p>
+              </div>
+            </div>
+          </section>
+
+          <section class="certificate gap">
+            <div class="right-title">Certificados</div>
+            <div class="certificate-contents">
+              <div class="certificate-left">
+                <p class="certificate-company-name">Elástico</p>
+                <p class="certificate-time-period">Junho de 2018</p>
+              </div>
+              <div class="certificate-right">
+                <p class="certificate-name">Engenheiro Elasticsearch I e II</p>
+                <p class="certificate-desc">
+                  Emitido em junho de 2018 - Sem data de expiração
+                </p>
+              </div>
+              <div class="certificate-left">
+                <p class="certificate-company-name">Cloud Academy Inc.</p>
+                <p class="certificate-time-period">novembro de 2021</p>
+              </div>
+              <div class="certificate-right">
+                <p class="certificate-name">Docker em profundidade</p>
+                <p class="certificate-desc">
+                  Emitido em novembro de 2021 - Sem data de expiração
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
